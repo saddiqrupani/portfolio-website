@@ -1,6 +1,6 @@
 export const Home = () => {
     return (
-        <div>
+        <div className="min-h-screen ">
 
             { /* Theme toggle button */ }
 
@@ -13,6 +13,7 @@ export const Home = () => {
             { /* Footer */ }
 
         </div>
+
     );
 
 };
