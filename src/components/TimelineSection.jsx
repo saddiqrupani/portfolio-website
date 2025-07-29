@@ -31,7 +31,6 @@ export const TimelineSection = () => {
         </h2>
 
         <div className="relative">
-          {/* Center vertical line */}
           <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gray-300"></div>
 
           <div className="space-y-16">
@@ -42,14 +41,12 @@ export const TimelineSection = () => {
                   key={index}
                   className="relative flex flex-col md:flex-row items-center md:items-start"
                 >
-                  {/* Content */}
                   <div
                     className={`md:w-1/2 px-4 ${
                       isLeft ? "md:pr-12 md:text-right" : "md:pl-12 md:ml-auto"
                     }`}
                   >
                     <div className="bg-background p-6 rounded-lg shadow-lg border border-gray-200 flex items-start gap-4">
-                      {/* Logo/Icon */}
                       <img
                         src={item.logo}
                         alt={`${item.title} logo`}
@@ -63,7 +60,6 @@ export const TimelineSection = () => {
                     </div>
                   </div>
 
-                  {/* Timeline Dot */}
                   <div className="hidden md:block w-6 h-6 bg-primary rounded-full absolute left-1/2 transform -translate-x-1/2 top-1/2 -translate-y-1/2 border-4 border-background"></div>
                 </div>
               );

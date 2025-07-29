@@ -8,7 +8,6 @@ export const AboutSection = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     
-                    {/* LEFT SIDE: Image */}
                     <div className="flex justify-center">
                         <img 
                             src="/me.jpg" 
@@ -17,7 +16,6 @@ export const AboutSection = () => {
                         />
                     </div>
 
-                    {/* RIGHT SIDE: Text */}
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">
                             Tech Student & Problem Solver
