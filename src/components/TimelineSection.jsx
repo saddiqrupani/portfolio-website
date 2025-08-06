@@ -26,9 +26,11 @@ export const TimelineSection = () => {
   return (
     <section id="experience" className="py-24 px-4 relative">
       <div className="container mx-auto max-w-5xl">
-        <h2 className="text-3xl md:text-4xl font-bold mb-16 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           Experience <span className="text-primary">Timeline</span>
         </h2>
+
+        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">Here is my experience I have gained throughout my professional career. More details can be found on my resume above.</p>
 
         <div className="relative">
           <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gray-300"></div>
