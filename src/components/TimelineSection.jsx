@@ -5,7 +5,7 @@ export const TimelineSection = () => {
       period: "2024 – Present",
       description:
         "Worked on automating workflows and supporting data-driven tools while gaining experience in a large-scale tech environment.",
-      logo: "/logos/delta.png", // Place logo in public/logos
+      logo: "/logos/delta.png",
     },
     {
       title: "Georgia Tech – Teaching Assistant",
