@@ -6,8 +6,8 @@ const projects = [
         id: 1,
         title: "NBA Predictor (In Progress)",
         description: "A web application that predicts NBA game outcomes using machine learning.",
-        image: "/projects/nba_predictor.png",
-        tags: ["Python", "Machine Learning", "Pandas", "Numpy"],
+        image: "/projects/basketball.svg",
+        tags: ["Python", "Pandas", "Numpy"],
         demoUrl: "https://github.com/saddiqrupani/NBA-Match-Predictor",
         githubUrl: "https://github.com/saddiqrupani/NBA-Match-Predictor"
     },
