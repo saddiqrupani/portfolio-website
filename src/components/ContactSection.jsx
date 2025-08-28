@@ -67,7 +67,7 @@ export const ContactSection = () => {
               <Github size={28} />
             </a>
             <a
-              href="https://www.instagram.com/saddiq456/"
+              href="https://www.instagram.com/saddiqrupani/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-primary transition-colors"
