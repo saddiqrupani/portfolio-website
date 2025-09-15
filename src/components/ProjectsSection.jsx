@@ -28,6 +28,15 @@ const projects = [
         tags: ["Java", "Android Studio", "Firebase"],
         demoUrl: "https://github.com/NathanZheng02/CS2340-C_FAC_Team-9",
         githubUrl: "https://github.com/NathanZheng02/CS2340-C_FAC_Team-9"
+    },
+    {
+        id: 4,
+        title: "To-Do List",
+        description: "A to-do list application built with React.",
+        image: "/projects/todo.png",
+        tags: ["React", "JavaScript", "CSS"],
+        demoUrl: "https://to-do-gamma-sage.vercel.app/",
+        githubUrl: "https://github.com/saddiqrupani/ToDo"
     }
 ];
 
