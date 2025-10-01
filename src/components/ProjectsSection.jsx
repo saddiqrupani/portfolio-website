@@ -4,21 +4,21 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
     {
         id: 1,
-        title: "NBA Predictor (In Progress)",
-        description: "A web application that predicts NBA game outcomes using machine learning.",
-        image: "/projects/basketball.svg",
-        tags: ["Python", "Pandas", "Numpy"],
-        demoUrl: "https://github.com/saddiqrupani/NBA-Match-Predictor",
-        githubUrl: "https://github.com/saddiqrupani/NBA-Match-Predictor"
-    },
-    {
-        id: 2,
         title: "Personal Portfolio",
         description: "A personal portfolio website to showcase my projects and skills.",
         image: "/projects/portfolio.png",
         tags: ["React", "Tailwind CSS", "JavaScript"],
         demoUrl: "https://saddiqrupani.com",
         githubUrl: "https://github.com/saddiqrupani/portfolio-website"
+    },
+    {
+        id: 2,
+        title: "NBA Predictor",
+        description: "A script that predicts NBA game outcomes using machine learning.",
+        image: "/projects/basketball.svg",
+        tags: ["Python", "Pandas", "Numpy"],
+        demoUrl: "https://github.com/saddiqrupani/NBA-Match-Predictor",
+        githubUrl: "https://github.com/saddiqrupani/NBA-Match-Predictor"
     },
     {
         id: 3,
