@@ -4,6 +4,15 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
     {
         id: 1,
+        title: "Coding Challenge Generator",
+        description: "A web app that generates coding challenges for practice.",
+        image: "/projects/codingChallenge.png",
+        tags: ["FastAPI", "React", "PostgreSQL"],
+        demoUrl: "https://github.com/saddiqrupani/Coding-Challenge-Generator",
+        githubUrl: "https://github.com/saddiqrupani/Coding-Challenge-Generator"
+    },
+    {
+        id: 2,
         title: "Personal Portfolio",
         description: "A personal portfolio website to showcase my projects and skills.",
         image: "/projects/portfolio.png",
@@ -12,7 +21,7 @@ const projects = [
         githubUrl: "https://github.com/saddiqrupani/portfolio-website"
     },
     {
-        id: 2,
+        id: 3,
         title: "NBA Predictor",
         description: "A script that predicts NBA game outcomes using machine learning.",
         image: "/projects/basketball.svg",
@@ -21,7 +30,7 @@ const projects = [
         githubUrl: "https://github.com/saddiqrupani/NBA-Match-Predictor"
     },
     {
-        id: 3,
+        id: 4,
         title: "WanderSync",
         description: "An all in one travel planning app to help you organize and manage your trips seamlessly.",
         image: "/projects/wander.png",
@@ -30,7 +39,7 @@ const projects = [
         githubUrl: "https://github.com/NathanZheng02/CS2340-C_FAC_Team-9"
     },
     {
-        id: 4,
+        id: 5,
         title: "To-Do List",
         description: "A to-do list application built with React.",
         image: "/projects/todo.png",
