@@ -8,7 +8,7 @@ const projects = [
         description: "A web app that generates coding challenges for practice.",
         image: "/projects/codingChallenge.png",
         tags: ["FastAPI", "React", "PostgreSQL"],
-        demoUrl: "https://github.com/saddiqrupani/Coding-Challenge-Generator",
+        demoUrl: "https://coding-challenge-generator-xi.vercel.app",
         githubUrl: "https://github.com/saddiqrupani/Coding-Challenge-Generator"
     },
     {
@@ -26,7 +26,6 @@ const projects = [
         description: "A script that predicts NBA game outcomes using machine learning.",
         image: "/projects/basketball.svg",
         tags: ["Python", "Pandas", "Numpy"],
-        demoUrl: "https://github.com/saddiqrupani/NBA-Match-Predictor",
         githubUrl: "https://github.com/saddiqrupani/NBA-Match-Predictor"
     },
     {
@@ -35,7 +34,6 @@ const projects = [
         description: "An all in one travel planning app to help you organize and manage your trips seamlessly.",
         image: "/projects/wander.png",
         tags: ["Java", "Android Studio", "Firebase"],
-        demoUrl: "https://github.com/NathanZheng02/CS2340-C_FAC_Team-9",
         githubUrl: "https://github.com/NathanZheng02/CS2340-C_FAC_Team-9"
     },
     {

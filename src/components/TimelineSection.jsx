@@ -1,25 +1,25 @@
 export const TimelineSection = () => {
   const timeline = [
     {
-      title: "Delta Air Lines – Intern",
-      period: "2025 – Present",
+      title: "Caterpillar - AI Engineering Intern",
+      period: "May 2026 - Present",
+      description:
+        "Engineering AI Agents to improve operational efficiency, while assisting with internal workflows throughout the enterprise.",
+      logo: "/logos/cat.jpg",
+    },
+    {
+      title: "Delta Air Lines – Data Engineering Intern",
+      period: "January 2025 – May 2026",
       description:
         "Working on automating workflows and supporting data-driven tools while gaining experience in a large-scale tech environment.",
       logo: "/logos/delta.png",
     },
     {
       title: "Georgia Tech – Teaching Assistant",
-      period: "2024 – Present",
+      period: "May 2024 – Present",
       description:
         "Assisting students with data structures, algorithms, and object-oriented programming by guiding them through concepts and debugging.",
       logo: "/logos/gatech.png",
-    },
-    {
-      title: "Coldstone Creamery - Manager",
-      period: "2022 - 2024",
-      description:
-        "Managed daily operations, optimized finances, and enhanced customer experiences while leading a team.",
-      logo: "/logos/coldstone.png",
     },
   ];
 

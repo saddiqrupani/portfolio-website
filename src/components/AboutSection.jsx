@@ -26,7 +26,7 @@ export const AboutSection = () => {
                         </p>
 
                         <p className="text-muted-foreground">
-                            I’m currently exploring areas like automation, data analytics, and AI, and I enjoy learning new technologies along the way.
+                            I’m currently exploring areas like AI, machine learning, and data. I enjoy learning new technologies along the way.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
