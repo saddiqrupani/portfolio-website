@@ -11,7 +11,7 @@ export const HeroSection = () => {
                 </h1>
 
                 <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                    I'm a 3rd year Computer Science student at the Georgia Institute of Technology
+                    I'm a rising 4th year Computer Science student at the Georgia Institute of Technology
                 </p>
 
                 <div className="pt-4 opacity-0 animate-fade-in-delay-4 ">
