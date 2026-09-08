@@ -2,16 +2,16 @@ export const TimelineSection = () => {
   const timeline = [
     {
       title: "Caterpillar - AI Engineering Intern",
-      period: "May 2026 - Present",
+      period: "May 2026 - August 2026",
       description:
-        "Engineering AI Agents to improve operational efficiency, while assisting with internal workflows throughout the enterprise.",
+        "Engineered multi-agent RAG pipelines and dynamic LLM integrations for 6,000+ users, plus agentic code migration cutting time 80%.",
       logo: "/logos/cat.jpg",
     },
     {
       title: "Delta Air Lines – Data Engineering Intern",
       period: "January 2025 – May 2026",
       description:
-        "Working on automating workflows and supporting data-driven tools while gaining experience in a large-scale tech environment.",
+        "Developed ML-driven forecasting and automated AWS/ETL pipelines processing millions of rows, boosting accuracy and cutting manual work significantly.",
       logo: "/logos/delta.png",
     },
     {

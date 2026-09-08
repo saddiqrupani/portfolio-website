@@ -4,6 +4,15 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
     {
         id: 1,
+        title: "RepIQ",
+        description: "A mobile app used to analyze workout form, track progress, and improve performance.",
+        image: "/projects/repiq.png",
+        tags: ["MediaPipe", "Supabase", "FastAPI"],
+        demoUrl: "https://youtu.be/8CNsCg-R0cg",
+        githubUrl: "https://github.com/saddiqrupani/repiq"
+    },
+    {
+        id: 2,
         title: "Coding Challenge Generator",
         description: "A web app that generates coding challenges for practice.",
         image: "/projects/codingChallenge.png",
@@ -12,7 +21,7 @@ const projects = [
         githubUrl: "https://github.com/saddiqrupani/Coding-Challenge-Generator"
     },
     {
-        id: 2,
+        id: 3,
         title: "Personal Portfolio",
         description: "A personal portfolio website to showcase my projects and skills.",
         image: "/projects/portfolio.png",
@@ -21,7 +30,7 @@ const projects = [
         githubUrl: "https://github.com/saddiqrupani/portfolio-website"
     },
     {
-        id: 3,
+        id: 4,
         title: "NBA Predictor",
         description: "A script that predicts NBA game outcomes using machine learning.",
         image: "/projects/basketball.svg",
@@ -29,7 +38,7 @@ const projects = [
         githubUrl: "https://github.com/saddiqrupani/NBA-Match-Predictor"
     },
     {
-        id: 4,
+        id: 5,
         title: "WanderSync",
         description: "An all in one travel planning app to help you organize and manage your trips seamlessly.",
         image: "/projects/wander.png",
@@ -37,7 +46,7 @@ const projects = [
         githubUrl: "https://github.com/NathanZheng02/CS2340-C_FAC_Team-9"
     },
     {
-        id: 5,
+        id: 6,
         title: "To-Do List",
         description: "A to-do list application built with React.",
         image: "/projects/todo.png",

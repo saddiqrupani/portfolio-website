@@ -2,6 +2,7 @@ import { Menu, X } from "lucide-react";
 import { cn } from "../lib/utils";
 import { useEffect } from "react";
 import { useState } from "react";
+import { ThemeToggle } from "./ThemeToggle";
 
 const navItems = [
     {name: "Home", href: "#hero"},
@@ -42,12 +43,13 @@ export const Navbar = () => {
                     </span>
                 </a>
 
-                <div className = "hidden md:flex space-x-8">
+                <div className = "hidden md:flex items-center space-x-8">
                     {navItems.map((item, key) => (
                         <a key={key} className="text-foreground/80 hover:text-primary transition-colors duration-300" href={item.href}>
                             {item.name}
                         </a>
                     ))}
+                    <ThemeToggle />
                 </div>
 
 
